@@ -1,0 +1,31 @@
+create background design
+    div
+        image (height 100%)
+        div 
+            logo
+            p text
+        div (will be moved within image with position)
+        p Credit for image (will be moved to bottom with css) p 
+
+load custom font locally 
+convert to woff + woff2 before loading 
+
+p text 
+p text 
+create form 
+form 
+
+style forms for validity and invalidity
+use css valid and invalid (or user-valid and user-invalid)
+
+add custom error messages for invalid inputs on focusout of form with javascript for impaired users
+    add small p underneath input for custom error messages
+    input addEventListener on focusout 
+        let value = checkvalidity 
+        if value is true 
+            error p text content = blank
+        else if value is false 
+            error p text content = error message 
+
+
+        

@@ -8,7 +8,7 @@ create background design
         p Credit for image (will be moved to bottom with css) p 
 
 load custom font locally 
-convert to woff + woff2 before loading 
+convert to woff + woff2 before loading //
 
 p text 
 p text 

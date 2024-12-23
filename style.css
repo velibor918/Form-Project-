@@ -217,6 +217,7 @@ summary {
 }
 
 .bgr {
+	position: relative;
     background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;

@@ -226,3 +226,11 @@ summary {
 	min-width: 300px;
     width: 30%;
 }
+
+.logo {
+	position: absolute;
+	top: 250px;
+	background-color: black;
+	height: 100px;
+	width: 100%;
+}

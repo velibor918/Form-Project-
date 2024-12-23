@@ -229,8 +229,7 @@ summary {
 
 .logo {
 	position: absolute;
-	top: 250px;
-	background-color: black;
-	height: 100px;
+	top: 30%;
+	background-color: rgb(0, 0, 0, 0.7);
 	width: 100%;
 }

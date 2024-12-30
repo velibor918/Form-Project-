@@ -246,5 +246,16 @@ summary {
 .log-text {
 	font-family: "norsebold", var(--system-ui);
 	color: white;
-	font-size: 7rem;
+	font-size: 8.2rem;
+}
+
+.credit {
+	position: absolute;
+	bottom: 0;
+	left: 120px;
+	color: white;
+}
+
+.credit a {
+	color: inherit;
 }

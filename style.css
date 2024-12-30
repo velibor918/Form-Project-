@@ -242,3 +242,9 @@ summary {
 	height: 150px;
 	width: auto;
 }
+
+.log-text {
+	font-family: "norsebold", var(--system-ui);
+	color: white;
+	font-size: 7rem;
+}

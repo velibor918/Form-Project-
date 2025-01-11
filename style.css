@@ -271,7 +271,12 @@ body {
 	display: flex;
 }
 
+.text-cont {
+	width: 800px;
+}
+
 .text-1 {
 	margin-top: 100px;
-	font-weight: bold;
+	font-size: 1.6rem;
+	font-weight: 600;
 }

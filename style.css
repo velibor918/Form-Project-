@@ -259,3 +259,12 @@ summary {
 .credit a {
 	color: inherit;
 }
+
+.container {
+	width: 70%;
+	height: 100vh;
+}
+
+body {
+	display: flex;
+}

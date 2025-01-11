@@ -261,10 +261,17 @@ summary {
 }
 
 .container {
+	margin: 10px;
+	margin-left: 50px;
 	width: 70%;
 	height: 100vh;
 }
 
 body {
 	display: flex;
+}
+
+.text-1 {
+	margin-top: 100px;
+	font-weight: bold;
 }

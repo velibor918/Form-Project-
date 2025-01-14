@@ -288,6 +288,10 @@ h1 {
 	color: rgb(54, 52, 52);
 }
 
+form {
+	width: 75%;
+}
+
 form p {
 	font-size: 1.2rem;
 	font-family: "Times New Roman", var(--system-ui);
@@ -296,8 +300,11 @@ form p {
 .frm-cont {
 	display: flex;
 	flex-direction: column;
+	width: 35%;
 }
 
 fieldset {
+	border: 0;
 	display: flex;
+	justify-content: center;
 }

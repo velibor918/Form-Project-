@@ -28,8 +28,14 @@
             <p>NOTE:Required elements will be labeled with <span aria-label="required">*.</span> </p>
             <fieldset>
                 <legend>Name</legend>
-                <div class="frm-cont"></div>
-                <div class="frm-cont"></div>
+                <div class="frm-cont">
+                    <label for="name-first">Name<span aria-label="required">*:</span></label>
+                    <input type="text" name="name-first" id="name-first" placeholder="John">
+                </div>
+                <div class="frm-cont">
+                    <label for="name-last">Lastname<span aria-label="required">*:</span></label>
+                    <input type="text" name="name-last" id="name-last" placeholder="Doe">
+                </div>
             </fieldset>
         </form>
     </div>

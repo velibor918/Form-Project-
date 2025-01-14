@@ -287,3 +287,8 @@ h1 {
 	font-family: 'Times New Roman', var(--system-ui);
 	color: rgb(54, 52, 52);
 }
+
+form p {
+	font-size: 1.2rem;
+	font-family: "Times New Roman", var(--system-ui);
+}

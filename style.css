@@ -306,5 +306,9 @@ form p {
 fieldset {
 	border: 0;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+}
+
+fieldset div:last-child {
+	margin-left: auto;
 }

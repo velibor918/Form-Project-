@@ -316,3 +316,13 @@ fieldset {
 fieldset div:last-child {
 	margin-left: auto;
 }
+
+input {
+	border: 1px solid #E5E7EB;
+}
+
+input:focus {
+	outline: none;
+	border: 1px solid blue;
+	box-shadow: 2px 2px 2px rgb(158, 160, 155);
+}

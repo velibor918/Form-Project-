@@ -319,6 +319,8 @@ fieldset div:last-child {
 
 input {
 	border: 1px solid #E5E7EB;
+	height: 30px;
+	padding: 5px;
 }
 
 input:focus {

@@ -302,6 +302,7 @@ form p {
 	display: flex;
 	flex-direction: column;
 	width: 35%;
+	margin-left: 5px;
 }
 
 label {

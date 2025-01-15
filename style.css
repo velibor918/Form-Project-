@@ -29,7 +29,7 @@ Use a better box model (opinionated).
 
 html {
 	/* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
-	font-family: var(--system-ui);
+	font-family: "Times New Roman", var(--system-ui);
 	line-height: 1.5; /* 1. Correct the line height in all browsers. */
 	-webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
 	tab-size: 4; /* 3. Use a more readable tab size (opinionated). */
@@ -290,6 +290,7 @@ h1 {
 
 form {
 	width: 50%;
+	font-size: 1.2rem;
 }
 
 form p {

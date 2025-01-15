@@ -315,6 +315,10 @@ fieldset {
 	justify-content: flex-start;
 }
 
+fieldset + fieldset {
+	margin-top: 5px;
+}
+
 fieldset div:last-child {
 	margin-left: auto;
 }

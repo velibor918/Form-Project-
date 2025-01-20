@@ -334,3 +334,8 @@ input:focus {
 	border: 1px solid blue;
 	box-shadow: 2px 2px 2px rgb(158, 160, 155);
 }
+
+#phone-format {
+	font-size: 1.2rem;
+	padding-left: 5px;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
 </head>
 
 <body>
@@ -59,14 +60,14 @@
                     <label for="pw-confirm">Confirm Password<span aria-label="required">*</span></label>
                     <input type="password" name="confrim-pw" id="pw-confirm">
                 </div>
+            </fieldset>
                 <div id="message">
                     <h3>Password must contain the following</h3>
-                    <p class="invalid">A lowercase letter</p>
-                    <p class="invalid">An uppercase letter</p>
-                    <p class="invalid">A number</p>
-                    <p class="invalid">Minimum 8 characters</p>
+                    <p class="invalid" id="lowercase">A lowercase letter</p>
+                    <p class="invalid" id="uppercase">An uppercase letter</p>
+                    <p class="invalid" id="digit">A number</p>
+                    <p class="invalid" id="char-length">Minimum 8 characters</p>
                 </div>
-            </fieldset>
         </form>
     </div>
 </body>

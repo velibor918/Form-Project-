@@ -347,6 +347,7 @@ input:user-invalid {
 
 #message {
 	margin-left: 20px;
+
 }
 
 #message p {
@@ -355,6 +356,7 @@ input:user-invalid {
 
 #message h3 {
 	margin: 5px;
+	margin-left: 0px;
 }
 
 .invalid {

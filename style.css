@@ -301,7 +301,6 @@ form p {
 .frm-cont {
 	display: flex;
 	flex-direction: column;
-	width: 35%;
 	margin-left: 5px;
 }
 

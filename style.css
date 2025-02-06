@@ -381,7 +381,26 @@ input:user-invalid {
 
 .submit-cont {
 	position: relative;
-	top: 90px;
+	top: 110px;
+}
+
+button {
+	height: 50px;
+	width: 250px;
+	background-color: #596D48;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2rem;
+	border: 0;
+	border-radius: 15px;
+}
+
+button:hover {
+	filter: brightness(90%);
+}
+
+button:active {
+	filter: brightness(100%);
 }
 
 .submit-cont p {

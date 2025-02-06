@@ -378,3 +378,12 @@ input:user-invalid {
 	left: -10px;
 	content: '\2713';
 }
+
+.submit-cont {
+	position: relative;
+	top: 90px;
+}
+
+.submit-cont p {
+	margin: 0;
+}

@@ -260,9 +260,9 @@ summary {
 }
 
 .mega {
-	margin: 0;
-	padding: 0;
-	/* display: flex; */
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
 }
 
 .container {
@@ -386,8 +386,9 @@ input:user-invalid {
 }
 
 .submit-cont {
-	position: relative;
-	top: 120px;
+	/* position: relative;
+	top: 120px; */
+	padding-left: 50px
 }
 
 button {

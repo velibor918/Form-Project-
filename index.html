@@ -19,60 +19,63 @@
                 href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West on
                 Unsplash</a></span>
     </div>
-    <div class="container">
-        <div class="text-cont">
-            <p class="text-1">This is not a real online service! You know you need something like this in your life to help
-                you realize your deepest dreams.<br>Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</p>
-        </div>
-        <h1>Let's do this!</h1>
-        <form action="" method="post" id="myform">
-            <p>NOTE:Required elements will be labeled with <span aria-label="required">*.</span> </p>
-            <fieldset>
-                <legend>NAME</legend>
-                <div class="frm-cont">
-                    <label for="name-first">First Name<span aria-label="required">*</span></label>
-                    <input type="text" name="name-first" id="name-first" placeholder="John" required>
-                </div>
-                <div class="frm-cont">
-                    <label for="name-last">Last Name<span aria-label="required">*</span></label>
-                    <input type="text" name="name-last" id="name-last" placeholder="Doe" required>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>CONTACT INFORMATION</legend>
-                <div class="frm-cont">
-                    <label for="email">E-mail<span aria-label="required">*</span></label>
-                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
-                </div>
-                <div class="frm-cont">
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number" id="phone-number" placeholder="Format:123-456-7890" aria-describedby="phone-format">
-                    <span id="phone-format">Format:123-456-7890</span>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>PASSWORD</legend>
-                <div class="frm-cont">
-                    <label for="pw">Password<span aria-label="required">*</span></label>
-                    <input type="password" name="pw" id="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-                    <div class="submit-cont">
-                        <button type="submit">Create Account</button>
-                        <p>Already have an account? <a href="">Log in</a></p>
-                    </div>
-                </div>
-                <div class="frm-cont">
-                    <label for="pw-confirm">Confirm Password<span aria-label="required">*</span></label>
-                    <input type="password" name="confrim-pw" id="pw-confirm" required>
-                </div>
-            </fieldset>
-            <div id="message">
-                <h3>Password must contain the following</h3>
-                <p class="invalid" id="lowercase">A lowercase letter</p>
-                <p class="invalid" id="uppercase">An uppercase letter</p>
-                <p class="invalid" id="digit">A number</p>
-                <p class="invalid" id="char-length">Minimum 8 characters</p>
+    <div class="mega">
+        <div class="container">
+            <div class="text-cont">
+                <p class="text-1">This is not a real online service! You know you need something like this in your life to help
+                    you realize your deepest dreams.<br>Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</p>
             </div>
-        </form>
+            <h1>Let's do this!</h1>
+            <form action="" method="post" id="myform">
+                <p>NOTE:Required elements will be labeled with <span aria-label="required">*.</span> </p>
+                <fieldset>
+                    <legend>NAME</legend>
+                    <div class="frm-cont">
+                        <label for="name-first">First Name<span aria-label="required">*</span></label>
+                        <input type="text" name="name-first" id="name-first" placeholder="John" required>
+                    </div>
+                    <div class="frm-cont">
+                        <label for="name-last">Last Name<span aria-label="required">*</span></label>
+                        <input type="text" name="name-last" id="name-last" placeholder="Doe" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>CONTACT INFORMATION</legend>
+                    <div class="frm-cont">
+                        <label for="email">E-mail<span aria-label="required">*</span></label>
+                        <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="frm-cont">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="Format:123-456-7890" aria-describedby="phone-format">
+                        <span id="phone-format">Format:123-456-7890</span>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>PASSWORD</legend>
+                    <div class="frm-cont">
+                        <label for="pw">Password<span aria-label="required">*</span></label>
+                        <input type="password" name="pw" id="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                      
+                    </div>
+                    <div class="frm-cont">
+                        <label for="pw-confirm">Confirm Password<span aria-label="required">*</span></label>
+                        <input type="password" name="confrim-pw" id="pw-confirm" required>
+                    </div>
+                </fieldset>
+                <div id="message">
+                    <h3>Password must contain the following</h3>
+                    <p class="invalid" id="lowercase">A lowercase letter</p>
+                    <p class="invalid" id="uppercase">An uppercase letter</p>
+                    <p class="invalid" id="digit">A number</p>
+                    <p class="invalid" id="char-length">Minimum 8 characters</p>
+                </div>
+            </form>
+        </div>
+        <div class="submit-cont">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
     </div>
 </body>
 

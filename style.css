@@ -259,6 +259,12 @@ summary {
 	color: inherit;
 }
 
+.mega {
+	margin: 0;
+	padding: 0;
+	/* display: flex; */
+}
+
 .container {
 	padding-left: 50px;
 	width: 100%;

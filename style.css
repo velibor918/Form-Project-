@@ -421,3 +421,7 @@ button:active {
 h2 {
 	margin-bottom: 0px;
 }
+
+#special {
+	padding-bottom: 20px;
+}

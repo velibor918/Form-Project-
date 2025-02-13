@@ -296,6 +296,7 @@ form {
 form p {
 	font-size: 1.2rem;
 	font-family: "Times New Roman", var(--system-ui);
+	margin: 10px 0px;
 }
 
 .frm-cont {
@@ -413,4 +414,8 @@ button:active {
 .submit-cont a {
 	text-decoration: none;
 	color: #596D48;
+}
+
+h2 {
+	margin-bottom: 0px;
 }

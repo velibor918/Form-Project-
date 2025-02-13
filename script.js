@@ -49,3 +49,7 @@ pw.addEventListener('keyup', ()=> {
         pwLength.classList.add('invalid');
     }
 })
+
+document.querySelector('button').addEventListener('mousedown', (e) => {
+    e.preventDefault();
+})

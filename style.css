@@ -262,7 +262,7 @@ summary {
 .mega {
 	display: flex;
 	flex-direction: column;
-	gap: 80px;
+	/* gap: 75px; */
 }
 
 .container {
@@ -384,6 +384,7 @@ input:user-invalid {
 .submit-cont {
 	/* position: relative;
 	top: 120px; */
+	padding-top: 30px;
 	padding-left: 66px;
 }
 

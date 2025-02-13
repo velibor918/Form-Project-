@@ -262,7 +262,7 @@ summary {
 .mega {
 	display: flex;
 	flex-direction: column;
-	/* gap: 75px; */
+	height: max-content;
 }
 
 .container {
@@ -353,6 +353,7 @@ input:user-invalid {
 
 #message p {
 	margin: 5px 10px;
+	font-size: 1.2rem;
 }
 
 #message h3 {
